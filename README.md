@@ -119,19 +119,19 @@ WantedBy=timers.target
 
 ### 🧭 System Architecture
 
-![Deployment Diagram](docs/deployment_diagram.png)
+![Deployment Diagram](deployment_diagram.png)
 
 ### 🏢 Floor Plan Mapping
 
-![Floor Plan](docs/floor_plan_view.png)
+![Floor Plan](data/floor_plan_view.png)
 
 ### 🔁 Block Diagram Flow
 
-![Block Diagram](docs/process_flowchart.png)
+![Block Diagram](data/blockdiagprocessdrawio.png)
 
 ### ⏰ 24-Hour Timing Overview
 
-![Timing Diagram](docs/24hr_timing_diagram.png)
+![Timing Diagram](24hr_timing_diagram.png)
 
 ### 🌐 Live Dashboard UI
 
@@ -141,7 +141,7 @@ WantedBy=timers.target
 
 ### 💧 Valve Simulation Preview
 
-![Valve](docs/valve_simulation.png)
+![Valve](valve_simulation.png)
 
 ---
 
