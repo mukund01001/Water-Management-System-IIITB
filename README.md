@@ -234,6 +234,10 @@ git checkout -b feat/your-feature
 Then open a PR with a description.
 
 ---
+---
+## 📚 References
+
+See [REFERENCES.md](./REFERENCES.md) for research papers, tools, and APIs used in this project.
 
 ## 📄 License
 
