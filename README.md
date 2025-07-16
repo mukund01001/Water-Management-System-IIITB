@@ -1,6 +1,10 @@
 # 💧 Water Management System – IIIT B
 
 > An end‑to‑end **Embedded IoT + Digital Twin** platform for real‑time campus water monitoring, forecasting, leak detection & 3D visualization.
+---
+## Project PPT
+
+Download and see [Deployement Plan.pptx](CampusDeploymentPlanAutosaved].pptx) for complete explanation and deployment plan of this project.
 
 ---
 
@@ -222,6 +226,7 @@ npm run dev
 * Outputs annotated CSVs for dashboard testing
 
 ---
+
 
 ## 🤝 Contributing
 
