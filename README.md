@@ -139,9 +139,10 @@ WantedBy=timers.target
 
 ### 🌐 Live Dashboard UI
 
-| Main View                        | Forecast View                       |
+| Main View - overlay of leaks     | other analytics and simulations     |
 | -------------------------------- | ----------------------------------- |
-| ![Live](docs/dashboard_live.png) | ![Forecast](docs/forecast_view.png) |
+| ![Live](dash1.png)               | ![Forecast](dash2.png)              |
+| ![Live](dash3.png)   | ![Forecast](dash4.png)  | ![Forecast](dash5.png)|
 
 ### 💧 Valve Simulation Preview
 
