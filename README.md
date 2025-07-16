@@ -141,8 +141,8 @@ WantedBy=timers.target
 
 | Main View - overlay of leaks     | other analytics and simulations     |
 | -------------------------------- | ----------------------------------- |
-| ![Live](dash1.png)               | ![Forecast](dash2.png)              |
-| ![Live](dash3.png)   | ![Forecast](dash4.png)  | ![Forecast](dash5.png)|
+| ![Live](dash2.png)               | ![Forecast](dash3.png)              |
+| ![Live](dash4.png)               | ![Forecast](dash5.png)              |
 
 ### 💧 Valve Simulation Preview
 
