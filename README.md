@@ -157,11 +157,18 @@ A high-level overview of how various components of the IoT and Digital Twin syst
 
 ### 🌐 Live Dashboard UI
 
-| Main View - overlay of leaks     | other analytics and simulations     |
-| -------------------------------- | ----------------------------------- |
-| ![Live](dash2.png)               | ![Forecast](dash3.png)              |
-| ![Live](dash4.png)               | ![Forecast](dash5.png)              |
+| Main Views & Overlays | Analytics, Forecasts & Simulations |
+| :-------------------- | :--------------------------------- |
+| ![Dashboard Overview](Dashboard_pics/dashboard1.png) | ![Historical Data](Dashboard_pics/dashboard2.png) |
+| *The primary overview with live consumption overlays on the campus floorplan.* | *Detailed historical hourly usage for individual sensors.* |
+| ![Campus Overview KPIs](Dashboard_pics/dashboard3.png) | ![Night Leaks Alerts](Dashboard_pics/dashboard4.png) |
+| *Key performance indicators and overall campus consumption trends.* | *Comprehensive list of all detected night-time water leaks.* |
+| ![Spike Alerts](Dashboard_pics/dashboard5.png) | ![Campus Demand Forecast](Dashboard_pics/dashboard6.png) |
+| *Review detected sudden consumption spikes indicating unusual activity.* | *Aggregated daily water demand forecast for the entire campus.* |
+| ![Sensor Demand Forecast](Dashboard_pics/dashboard7.png) | ![Valve Control Simulation](Dashboard_pics/dashboard8.png) |
+| *Predictive demand forecasts for specific sensors or buildings.* | *Conceptual interface for simulating valve opening and closing.* |
 
+---
 ### 💧 Valve Simulation Preview
 
 ![Valve](valve_simulation.png)
