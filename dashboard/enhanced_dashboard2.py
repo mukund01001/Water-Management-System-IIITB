@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from sklearn.ensemble import IsolationForest
 st.set_page_config(layout="wide")
 # === CONFIGURATION ===
-base_path = r"C:\Users\maila\OneDrive\Desktop\campus_digital_twin\data"
+base_path = r"/home/iiitb/campus_digital_twin/data"
 combined_data_path = os.path.join(base_path, "combined_water_data.csv")
 forecast_path = os.path.join(base_path, "demand_forecast.csv")
 night_leaks_path = os.path.join(base_path, "night_leak_alerts.csv")
@@ -162,3 +162,5 @@ st.sidebar.markdown("🛠️ Redrawn every time you refresh.")
 if st.sidebar.button("🔄 Re-run ML Leak Detection"):
     run_ml_leak_detection()
     st.rerun()
+st.sidebar.markdown("---")
+st.sidebar.write("© 2025 IIIT Bengaluru — Water Management system")
