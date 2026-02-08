@@ -1,4 +1,4 @@
-# 💧 Water Management System – IIIT B
+#  Water Management System – IIIT B
 
 > An end‑to‑end **Embedded IoT + Digital Twin** platform for real‑time campus water monitoring, forecasting, leak detection & 3D visualization.
 ---
@@ -8,23 +8,23 @@ Download and see [Deployement Plan.pptx](CampusDeploymentPlanAutosaved].pptx) fo
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
-1. [🚀 Project Overview](#-project-overview)
-2. [🌟 Use Case Highlights](#-use-case-highlights)
-3. [🏗 Architecture & Components](#-architecture--components)
-4. [🖼 Visual Overview](#-visual-overview)
-5. [⚙️ Setup & Installation](#️-setup--installation)
-6. [🚀 Quick Start](#-quick-start)
-7. [📂 Directory Structure](#-directory-structure)
-8. [🛠 Key Technologies & Tags](#-key-technologies--tags)
-9. [🤖 Valve Simulation & Attack Testing](#-valve-simulation--attack-testing)
-10. [🤝 Contributing](#-contributing)
-11. [📄 License](#-license)
+1. [ Project Overview](#-project-overview)
+2. [ Use Case Highlights](#-use-case-highlights)
+3. [ Architecture & Components](#-architecture--components)
+4. [ Visual Overview](#-visual-overview)
+5. [ Setup & Installation](#️-setup--installation)
+6. [ Quick Start](#-quick-start)
+7. [ Directory Structure](#-directory-structure)
+8. [ Key Technologies & Tags](#-key-technologies--tags)
+9. [ Valve Simulation & Attack Testing](#-valve-simulation--attack-testing)
+10. [ Contributing](#-contributing)
+11. [ License](#-license)
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 The **IIIT B Water Management System** is a cutting-edge **IoT + Digital Twin** solution meticulously designed to optimize water resource management within the campus environment. It transforms raw sensor data into actionable insights, providing comprehensive control and visibility over water consumption.
 
@@ -52,20 +52,20 @@ The **IIIT B Water Management System** is a cutting-edge **IoT + Digital Twin** 
 
 ---
 
-## 🌟 Use Case Scenarios
+##  Use Case Scenarios
 
 Our system addresses real-world operational challenges and pain points within campus water management:
 
-* 🔧 **Intelligent Leak Detection & Rapid Response**: An alert from a specific meter (e.g., `B1MF`) at 2 AM, indicating an unexpected flow, immediately triggers a notification to the facility management team, enabling swift action to prevent water wastage.
-* 📊 **Optimized Consumption Trends for Tank Scheduling**: Analysis of historical Friday consumption patterns in a specific block (e.g., Block A) allows for proactive adjustments to tank refill schedules or the addition of backup tanks to meet predictable higher demand.
-* 🔮 **Proactive Forecasting for Maintenance Planning**: Forecasts predicting low water usage during upcoming holidays provide an ideal window for scheduling essential maintenance activities like tank cleaning or pipeline flushing, minimizing disruption.
-* 🚨 **High Spike Alerts for Misuse Detection**: An unusual spike in consumption from a common area meter (e.g., `BGMD`) during a weekend can trigger an alert, prompting investigation into potential unauthorized activity.
-* 🧱 **Block Comparison for Infrastructure Upgrades**: Comparative analysis revealing significantly higher water usage in one block (e.g., Block B using 40% more) can initiate an audit, uncover inefficient old fixtures, and guide targeted upgrades to low-flow taps.
-* 🧪 **Valve Simulation for Smart Savings**: Simulations demonstrate potential water savings (e.g., 15% reduction in loss) by implementing automated rules like closing terrace valves during night hours.
+*  **Intelligent Leak Detection & Rapid Response**: An alert from a specific meter (e.g., `B1MF`) at 2 AM, indicating an unexpected flow, immediately triggers a notification to the facility management team, enabling swift action to prevent water wastage.
+*  **Optimized Consumption Trends for Tank Scheduling**: Analysis of historical Friday consumption patterns in a specific block (e.g., Block A) allows for proactive adjustments to tank refill schedules or the addition of backup tanks to meet predictable higher demand.
+*  **Proactive Forecasting for Maintenance Planning**: Forecasts predicting low water usage during upcoming holidays provide an ideal window for scheduling essential maintenance activities like tank cleaning or pipeline flushing, minimizing disruption.
+*  **High Spike Alerts for Misuse Detection**: An unusual spike in consumption from a common area meter (e.g., `BGMD`) during a weekend can trigger an alert, prompting investigation into potential unauthorized activity.
+*  **Block Comparison for Infrastructure Upgrades**: Comparative analysis revealing significantly higher water usage in one block (e.g., Block B using 40% more) can initiate an audit, uncover inefficient old fixtures, and guide targeted upgrades to low-flow taps.
+*  **Valve Simulation for Smart Savings**: Simulations demonstrate potential water savings (e.g., 15% reduction in loss) by implementing automated rules like closing terrace valves during night hours.
 ---
 ---
 
-## ✨ Key Features & Highlights
+## Key Features & Highlights
 
 * **Real-time IoT Monitoring:** Collects and processes water usage data from 24 smart meters across campus (domestic and flush points).
 * **Intelligent Leak & Anomaly Detection:** Leverages **Isolation Forest (ML)** to accurately identify both subtle night-time leaks and sudden consumption spikes.
@@ -77,7 +77,7 @@ Our system addresses real-world operational challenges and pain points within ca
 * **Simulated Valve Control:** Features a conceptual interface for testing smart valve closure automation strategies.
 
 ---
-## 🏗 Architecture & Components
+## Architecture & Components
 The system is designed with modularity and scalability in mind, encompassing embedded hardware, a robust data pipeline, and intuitive visualization layers.
 
 ### 1. Embedded IoT Data Collection
@@ -138,24 +138,24 @@ WantedBy=timers.target
 
 ## 🖼 Visual Overview
 
-### 🧭 System Architecture
+### System Architecture
 A high-level overview of how various components of the IoT and Digital Twin system are interconnected.
 
 ![Deployment Diagram](deployment_diagram.png)
 
-### 🏢 Floor Plan Mapping
+### Floor Plan Mapping
 
 ![Floor Plan](data/floor_plan_view.png)
 
-### 🔁 Block Diagram Flow
+### Block Diagram Flow
 
 ![Block Diagram](data/blockdiagprocessdrawio.png)
 
-### ⏰ 24-Hour Timing Overview
+### 24-Hour Timing Overview
 
 ![Timing Diagram](24hr_timing_diagram.png)
 
-### 🌐 Live Dashboard UI
+### Live Dashboard UI
 
 | Main Views & Overlays | Analytics, Forecasts & Simulations |
 | :-------------------- | :--------------------------------- |
@@ -169,13 +169,13 @@ A high-level overview of how various components of the IoT and Digital Twin syst
 | *Predictive demand forecasts for specific sensors or buildings.* | *Conceptual interface for simulating valve opening and closing.* |
 
 ---
-### 💧 Valve Simulation Preview
+###  Valve Simulation Preview
 
 ![Valve](valve_simulation.png)
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 Follow these steps to get the project up and running on your local machine:
 
@@ -200,7 +200,7 @@ Important: Ensure you have python3, pip, and npm (Node.js and npm) installed on 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 After completing the Setup & Installation, follow these steps to run the core functionalities:
 
@@ -241,7 +241,7 @@ streamlit run enhanced_dashboard.py
 ```
 Access the dashboard in your web browser (usually http://localhost:8503). Use water@123 for admin login.
 
-Click "🔄 Reload All Data (Clear Cache)" in the sidebar if you manually update data files while the dashboard is running.
+Click " Reload All Data (Clear Cache)" in the sidebar if you manually update data files while the dashboard is running.
 
 Launch the React + Three.js (3D) Dashboard:
 
@@ -253,7 +253,7 @@ npm run dev
 Access the 3D visualization in your web browser (usually http://localhost:5173 or similar).
 ---
 
-## 📂 Directory Structure
+##  Directory Structure
 
 ```
 .
@@ -291,7 +291,7 @@ Our system leverages a robust stack of technologies across different layers:
 
 ---
 
-## 🧪 Advanced Features: Valve Simulation & Testing
+##  Advanced Features: Valve Simulation & Testing
 
 This project incorporates advanced functionalities for simulating real-world scenarios and testing system resilience.
 
@@ -335,7 +335,7 @@ This project incorporates advanced functionalities for simulating real-world sce
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions to enhance this project!
 
@@ -351,13 +351,13 @@ We welcome contributions to enhance this project!
 
 ---
 
-## 🔗 References
+##  References
 
 For research papers, tools, and APIs that informed this project's development, please see the dedicated [**REFERENCES.md**](./REFERENCES.md) file.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 © 2025
