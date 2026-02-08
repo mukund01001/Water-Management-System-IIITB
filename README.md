@@ -136,7 +136,7 @@ WantedBy=timers.target
 
 ---
 
-## 🖼 Visual Overview
+##  Visual Overview
 
 ### System Architecture
 A high-level overview of how various components of the IoT and Digital Twin system are interconnected.
@@ -276,7 +276,7 @@ Access the 3D visualization in your web browser (usually http://localhost:5173 o
 
 ---
 
-## 🛠 Core Technologies
+##  Core Technologies
 
 Our system leverages a robust stack of technologies across different layers:
 
